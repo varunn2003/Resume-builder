@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: bisque;
+}
+#stumgmt{
+    width: 100%;
+    background-color: black;
+}
+h2{
+    color: rgb(64, 8, 185);
+    text-align: center;
+    font-size: 70px;
+}
+u1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+li{
+    list-style: none;
+    font-size: 50px;
+    background-color: blueviolet;
+    margin: 2px 10%;
+    padding: 1%;
+    width: 80%;
+}
+li:hover{
+    background-color: rgb(235, 24, 24);
+    color: rgb(248, 244, 244);
+}
+table,th ,td{
+    border: 2px;
+    border-color: brown;
+    border-collapse: collapse;
+}

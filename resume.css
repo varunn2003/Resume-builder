@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: rgb(172, 129, 129);
+}
+#topBanner{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: rgb(1, 193, 129);
+}
+#imageIcon{
+    width: 30%;
+    height: 400px;
+
+}
+#titleObjective{
+    width: 60%;
+    margin-left: 10%;
+    font-size: 50px;
+
+}
+#imageIcon, #titleObjective{
+    float: left;
+    height: 400px;
+}
+#imageIcon img{
+    width: 80%;
+    height: 400px;
+    padding: 10px 10%;
+}
+p{
+    font-size: 40px;
+}
+#controls input{
+height: 100px;
+width: 200px;
+font-size: 50px;
+float: left;
+margin-top: 300px;
+}
+#titleObjective textarea{
+    height: 300px;
+    width: 50%;
+    font-size: 50px;
+}
+#titleObjective input{
+    height: 50px;
+    width: 30%;
+    font-size: 30px;
+}
+#skillsProjects{
+    height: 750px;
+    width:100%;
+    background-color: rgb(117, 113, 113);
+    font-size: 40px;
+}
+#skills{
+    width: 30%;
+    float: left;
+    width: 24%;
+    padding-left: 3%;
+    margin-top: 10px;
+}
+#projects{
+    margin-left: 10%;
+    width: 53%;
+    float: left;
+    padding-left: 3%;
+    margin-top: px;
+    border: 2px dotted rgb(212, 248, 7);
+}
+#projects input{
+    height: 50px;
+    width: 30%;
+    font-size: 50px;
+}
+#projects h2{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+#skills input{
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    margin-top: 1%;
+}
+#skills li{
+    list-style: none;
+    height: 35px;
+    background-color: rgb(167, 164, 164);
+    margin-top: 10px;
+    padding-left: 10px;
+    box-shadow: 2px 2px white;
+}   
+#internship {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(134, 129, 129);
+    font-size: 30px;
+}
+#workshops{
+    width: 50%;
+    height: 600px;
+    margin: 100px;
+    float: left;
+    font-size: 50px;
+}
+#personalInfo{
+    width: 20%;
+    height: 300px;
+    margin: 0;
+    float: right;
+}
+#internship input{
+    height: 50px;
+    width: 300px;
+    font-size: large;
+
+}

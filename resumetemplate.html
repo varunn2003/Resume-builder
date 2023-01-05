@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link href="css/resume.css" type="text/css" rel="stylesheet">
+        <script src="js/resume.js"></script>
+    </head>
+    <body>
+        <section id="topBanner">
+            <div id="imageIcon">
+                
+                <img src="images/pika.jpg">
+
+            </div>
+            <div id="titleObjective">
+                <h2 id="fname">
+                    <input type="text" id="fullName" name="fullName">
+                </h2>
+                <h3>Objective</h3>
+                
+                    <textarea id="objective" rows="10" cols="80"></textarea>
+                    <p id="objectContent">
+
+                    </p>
+            </div>
+        </section>
+        <section id="skillsProjects">
+            <h2>SkillSet</h2>
+            <div id="skills">
+                <ul id="mySkills">
+
+
+                </ul>
+                <input id="skill" type="text" name="skill"><br>
+                <input id="addskills" type="button" value="ADD SKILLS" onclick="addskillset()">
+            </div>
+            <div id="projects">
+                <h2>Projects</h2>
+                <h2 id="projTitleHead">
+                    <input id="projTitle" type="text" name="projTitle">
+                </h2>
+                <input id="projDes" type="text" name="projDes">
+                <p id="projDesc"></p>
+            </div>
+        </section>
+        <section id="internship">
+            <div id="workshops">
+                <h2 id="wName">
+                    <input id="workName" type="text" name="workName">
+                </h2>
+                <input id="workDesc" type="text" name="workDesc">
+                <p id="workDescCont"></p>
+
+                <h2 id="iName">
+                    <input id="internName" type="text" name="internName">
+                </h2>
+                <input id="internDesc" type="text" name="internDesc">
+                <p id="internDescCont"></p>
+            </div>
+            <div id="personalInfo">
+            <h3>fullName</h3>
+            <input id="pName" type="text" name="pName">
+            <p id="pNameCont"></p>
+            <h3>Email</h3>
+            <input id="email" type="email" name="email">
+            <p id="emailCont"></p>
+            <h3>Phone</h3>
+            <input id="phone" type="number" name="phone">
+            <p id="phoneCont"></p>
+            <h3>Address</h3>
+            <input id="address" type="text" name="address">
+            <p id="addressCont"></p>
+            </div>
+        </section>
+        <section id="controls">
+            <input type="button" onclick="hideControls()" value="Hide">
+            <input type="button" onclick="showControls()" value="Show">
+        </section>
+        
+    </body>
+</html>
